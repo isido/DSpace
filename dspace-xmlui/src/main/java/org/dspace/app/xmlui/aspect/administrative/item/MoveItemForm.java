@@ -105,7 +105,7 @@ public class MoveItemForm extends AbstractDSpaceTransformer {
         CheckBox inheritPolicies = actions.addCheckBox("inheritPolicies");
         inheritPolicies.setLabel(T_submit_inherit);
         inheritPolicies.setHelp(T_submit_inherit_help);
-        inheritPolicies.addOption("inheritPolicies");
+        inheritPolicies.addOption(true, "inheritPolicies");
         actions.addButton("submit_move").setValue(T_submit_move);
 		actions.addButton("submit_cancel").setValue(T_submit_cancel);
 
